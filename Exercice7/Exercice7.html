@@ -7,15 +7,17 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     </head>
     <body>
-        <form>
-            <label for="age">Entrez votre âge</label>
-            <input type="tel" name="age" id="age" aria-placeholder="Entrez votre age">
-            <button onclick="divideThem()">Verifier</button>
-         </form>
-            <script src="assets/js/main.js" async defer></script>
-       
+        <div class="container">
+            <form method="POST" action="Exercice7.html">
+                <label for="age">âge :</label>
+                <input class="form-control" type="number" name="age" id="age" aria-placeholder="Entrez votre âge" placeholder="Entrez votre âge">
+                <button class="btn btn-primary mt-3" onclick="calculate()">Verifier</button>
+            </form>
+            
+        </div>
+        <script src="assets/js/main.js" async defer></script>
     </body>
 </html>
