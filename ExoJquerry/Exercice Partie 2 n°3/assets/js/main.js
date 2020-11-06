@@ -1,5 +1,10 @@
 $( document ).ready(function() {
-    $('#button1').click(function(){
-        alert("Tu as cliqué sur le bouton bravo")
-    });
+    $('#buttonshow').click(function(){
+        $("p").show();
+    });   
+    $('#buttonhide').click(function(){
+        $("p").hide();
+    }); 
+    
 });
+    
