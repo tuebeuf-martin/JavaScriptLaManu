@@ -5,6 +5,8 @@ $( document ).ready(function() {
     $('#buttongreen').click(function(){
         $('p').css("color","green");
     }); 
-    
+    $('#buttonred').click(function(){
+        $('p').css("color","red");
+    });    
 });
     
